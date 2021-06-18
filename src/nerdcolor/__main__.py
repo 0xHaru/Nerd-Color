@@ -28,7 +28,7 @@ def print_examples():
 def main():
     parser = argparse.ArgumentParser(
         prog="nerdcolor",
-        description="A simple colorizer.",
+        description="A simple CLI colorizer.",
         epilog="Project home page: https://github.com/0xHaru/Nerd-Color",
     )
     parser.version = VERSION
